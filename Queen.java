@@ -22,7 +22,6 @@ public class Queen {
 			//System.out.println("Queen "+(column+1)+"attacks "+"Queen"+(victim.getCol()+1));
 			return true;
 		}
-		
 		return false;
 	}
 	/*
@@ -41,7 +40,6 @@ public class Queen {
 	}
 	public void setRow(int r) {
 		// TODO Auto-generated method stub
-		this.row=r;
-		
+		this.row=r;	
 	}
 }
