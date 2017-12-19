@@ -77,7 +77,6 @@ public class Board implements Comparable<Board> {
 					successors.add(tt);
 				}
 			}
-		
 		return successors;
 	}
 	public String toString(){
